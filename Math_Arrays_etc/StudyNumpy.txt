@@ -1,0 +1,6 @@
+https://numpy.org/doc/stable/user/quickstart.html#basic-operations 	#библотека numpy - работа с массивами
+https://pythonworld.ru/numpy/1.html 					#библотека numpy - работа с массивами 1
+https://pythonworld.ru/numpy/2.html 					#библотека numpy - работа с массивами 2
+https://pythonworld.ru/numpy/3.html 					#библотека numpy - работа с массивами 3
+https://pythonworld.ru/numpy/4.html 					#библотека numpy - работа с массивами 4
+https://python-scripts.com/intro-to-neural-networks 			#нейросеть ИИ
