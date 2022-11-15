@@ -50,7 +50,7 @@ def qu_f(s):  # Ввод данных float
 
 def enter_data(mas, value):  # Ввод данных
     while True:
-        data = input(mas)
+        data = input(mas).strip()
         if value == 1:
             try:
                 data = int(data)
