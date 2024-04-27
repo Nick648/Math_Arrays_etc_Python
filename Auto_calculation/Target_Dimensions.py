@@ -6,6 +6,7 @@ from tkinter import ttk, messagebox
 
 WIN_WIDTH, WIN_HEIGHT = pg.size()  # Get the size of the primary monitor.
 APP_WIDTH, APP_HEIGHT = 600, 800
+max_size_frame, min_size_element = 161, 3
 
 
 def is_valid_digit(new_val: str) -> bool:
@@ -294,7 +295,7 @@ def get_nok_n(digs: list) -> list:
     if not digs:
         return []
     ans = []
-    for i in range(max(digs), 201):
+    for i in range(max(digs), max_size_frame):
         k = True
         for dig in digs:
             if i % dig != 0:
@@ -309,7 +310,7 @@ def get_nod_n(digs: list) -> list:
     if not digs:
         return []
     ans = []
-    for i in range(3, min(digs)):
+    for i in range(min_size_element, min(digs)):
         k = True
         for dig in digs:
             if dig % i != 0:
